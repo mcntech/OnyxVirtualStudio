@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OvsConfig">
+</Property><Property Name="Solution File" Value="C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.sln">
+</Property><Property Name="User Options File" Value="C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.suo">
+</Property><Property Name="Date" Value="Saturday, January 25, 2014">
+</Property><Property Name="Time" Value="12:42 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OvsConfig.sln" Description="File successfully backed up as C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="OvsConfig.suo" Description="File successfully backed up as C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.suo.old">
+</Event><Event ErrorLevel="0" Project="OvsConfig" Source="OvsConfig.vcproj" Description="Converting project file 'C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.vcproj'.">
+</Event><Event ErrorLevel="1" Project="OvsConfig" Source="OvsConfig.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="OvsConfig" Source="OvsConfig.vcproj" Description="Done converting to new project file 'C:\Projects\OnyxVirtualStudio\Tools\OvsConfig\OvsConfig.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="OvsConfig" Source="OvsConfig.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OvsConfig.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OvsConfig.sln" Description="Converted">
+</Event></UpgradeLog>

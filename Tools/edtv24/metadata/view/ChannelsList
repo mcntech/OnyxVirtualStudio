@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen5439",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "scrollable": "vertical",
+        "itemTpl": "<section class=\"channelListItem\">\n<img src=\"data:image/jpeg;base64,{thumbnail}\">\n<h1>{title}</h1>\n<div class=\"ratings\">\n<span class=\"user_ratings\">Rating: {rating}%</span>\n</div>\n</section>",
+        "loadingText": "Loading Channels...",
+        "store": "ChannelsStore",
+        "onItemDisclosure": true,
+        "designer|userClassName": "ChannelsList",
+        "designer|userAlias": "channelslist"
+    },
+    "customConfigs": [],
+    "designerId": "ef21eee2-08c9-4f0c-9d5f-f348e8abc3e0",
+    "$viewOrder": 1,
+    "expanded": true
+}

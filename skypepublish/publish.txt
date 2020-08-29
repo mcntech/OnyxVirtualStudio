@@ -1,0 +1,30 @@
+http://www.mcntech.com/onyxvirtualstudio.html
+
+Video Collaboration with 3D Graphics
+Video Collaboration in 3D Virtual Scene
+Video Collaboration using Virtual 3D
+
+Using Onyx you can compose a 3D scene and map the video feeds from Skype video call, webcam, IP Cam as well as WMV and MP4 files. The 3D scene can be navigated mimicking the motion of a video camera. You can create very effective  collaborations/presentations and can also record the session.
+
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/developerlogo.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/onyxlogo.jpg
+
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot1.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot2.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot3.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot4.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot5.png
+https://s3.amazonaws.com/onyxvirtualstudio/skypepublish/screenshot6.png
+
+PC running Windows 7,
+Intel i5 or equivalent PC with minimum 4GB of RAM.
+
+
+<h1>Creates a Virtual Meeting Place</h1>
+<h2>Onyx can merge your web cam video feed and the remote participant's video stream in a 3D scene and creates a virtual meeting place.</h2> 
+<h1>Effective Video Presentations</h1>
+<h2>You can bring your PowerPoint slide shows, other presentation videos and IP Cam feeds into the Onyx Virtual Studio and present to the participant.</h2> 
+<h1>3D Navigation similar to a TV studio setting</h1>
+<h2>Navigate to any part of the scene showing details of your presentation or change the focus to speaker or participant similar to a TV studio setting. </h2> 
+<h1><strong>Recording</h1>
+<h2>Record the presentation session in MP4 or HTTP Live Streaming formats.</h2> 

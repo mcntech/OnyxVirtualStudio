@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OvsPublish", "OvsPublish.vcproj", "{D666DB44-5A6C-4ECB-A8D5-6ED89E8E8C44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jdaws", "..\..\..\dlna\jdaws\win32\jdaws.vcproj", "{4C19C347-405C-4713-961F-02BF0F1003C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D666DB44-5A6C-4ECB-A8D5-6ED89E8E8C44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D666DB44-5A6C-4ECB-A8D5-6ED89E8E8C44}.Debug|Win32.Build.0 = Debug|Win32
+		{D666DB44-5A6C-4ECB-A8D5-6ED89E8E8C44}.Release|Win32.ActiveCfg = Release|Win32
+		{D666DB44-5A6C-4ECB-A8D5-6ED89E8E8C44}.Release|Win32.Build.0 = Release|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Debug|Win32.Build.0 = Debug|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Release|Win32.ActiveCfg = Release|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

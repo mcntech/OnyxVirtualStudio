@@ -1,0 +1,222 @@
+material Cylindrical/Option1/Wall
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option1_wall.jpg
+				tex_coord_set 0
+				//emv_map spherical
+			}
+        }
+    }
+}
+material Cylindrical/Option2/Wall
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option2_wall.jpg
+				tex_coord_set 0
+				//emv_map spherical
+			}
+        }
+    }
+}
+material Cylindrical/Option3/Wall
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option3_wall.jpg
+				tex_coord_set 0
+				//emv_map spherical
+			}
+        }
+    }
+}
+
+material Cylindrical/Option2/Wall
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_wall_1.jpg
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+
+material Cylindrical/Option1/Floor
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option1_floor.png
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+
+material Cylindrical/Option2/Floor
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option2_floor.jpg
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+
+material Cylindrical/Option3/Floor
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option3_floor.jpg
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+
+material Cylindrical/Option1/Roof
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option1_roof.jpg
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+material Cylindrical/Option2/Roof
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option2_roof.png
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}
+material Cylindrical/Option3/Roof
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+			lighting on
+			ambient 0.5 0.5 0.5 0.5
+			diffues 0.2 0.2 0.2 0.2
+			specular 0 0 0 0
+			emissive 1.0 1.0 1.0 10000
+			texture_unit
+			{
+				texture cylindrical_option3_roof.png
+				tex_coord_set 0
+				//emv_map spherical
+				tex_address_mode wrap
+			}
+        }
+    }
+}

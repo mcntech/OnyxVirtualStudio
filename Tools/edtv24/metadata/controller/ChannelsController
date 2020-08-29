@@ -1,0 +1,59 @@
+{
+    "id": "ExtBox1-ext-gen9503",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ChannelsController"
+    },
+    "customConfigs": [],
+    "designerId": "c4907d9d-8208-4095-9373-261f06cd32fd",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11785",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "channelsList",
+                "selector": "#channelsList",
+                "designer|userClassName": "channelsList"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen12050",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListDisclose",
+                "implHandler": [
+                    "list.up('navigationview').push({",
+                    "    xtype: 'channelsdetails',",
+                    "    data: record.data,",
+                    "    title: record.get('title')",
+                    "});"
+                ],
+                "name": "disclose",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#channelsList",
+                "designer|userClassName": "onListDisclose"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

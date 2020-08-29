@@ -1,0 +1,47 @@
+{
+    "id": "ExtBox1-ext-gen80040",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "scrollable": "vertical",
+        "itemTpl": "<section class=\"channelListItem\">\n<img src=\"data:image/jpeg;base64,{thumbnail}\">\n<h1>{title}</h1>\n</section>",
+        "loadingText": "Loading Archives...",
+        "store": "ArchivesStore",
+        "onItemDisclosure": true,
+        "designer|userClassName": "ArchivesList",
+        "designer|userAlias": "archiveslist"
+    },
+    "customConfigs": [],
+    "designerId": "66868448-30ad-4821-8e50-06ce6d22ad20",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen130235",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListDisclose",
+                "implHandler": [
+                    "list.up('navigationview').push({\r",
+                    "    xtype: 'archivedetails',\r",
+                    "    data: record.data,\r",
+                    "    title: record.get('title')\r",
+                    "});"
+                ],
+                "name": "disclose",
+                "designer|userClassName": "onListDisclose"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

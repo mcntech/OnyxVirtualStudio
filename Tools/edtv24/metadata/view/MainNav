@@ -1,0 +1,58 @@
+{
+    "id": "ExtBox1-ext-gen9639",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainNav"
+    },
+    "customConfigs": [],
+    "designerId": "767ae0a4-129e-49aa-84e7-fff7f9688658",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen9643",
+            "type": "navigationbar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "tplWriteMode": null,
+                "designer|userClassName": "MyNavigationBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-navbar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen10578",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Ed TV 24",
+                "id": "channelsList",
+                "itemId": null
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "title",
+                    "type": "string"
+                }
+            ],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen5439"
+        }
+    ]
+}

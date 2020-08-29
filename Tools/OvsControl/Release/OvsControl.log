@@ -1,0 +1,83 @@
+﻿Build started 1/27/2014 7:04:36 AM.
+     1>Project "C:\Projects\OnyxVirtualStudio\Tools\OvsControl\OvsControl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\OvsControl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\PluginSkype /I..\..\PluginCommon /IC:\Projects\dlna\jdaws\include /IC:\Projects\dlna\jdnet\include /I..\..\PluginControl /IC:\Projects\mcncodec\IMSdk_R3\samples\sample_dshow_plugins\utils\include /IC:\Projects\dlna\DsFilters\McnVCam /IC:\Projects\dlna\DsFilters\McnRtmpPublish /I"C:\Program Files (x86)\Intel\IntelAppUpSDK\Cpp\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D FORCE_LOG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PageInputVideos.cpp
+         PageInputVideos.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Projects\OnyxVirtualStudio\PluginCommon\DsUtil.h(221): warning C4102: 'Exit' : unreferenced label
+     1>C:\Projects\OnyxVirtualStudio\PluginCommon\DsUtil.h(285): warning C4102: 'Exit' : unreferenced label
+     1>C:\Projects\OnyxVirtualStudio\PluginCommon\DsUtil.h(404): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>PageInputVideos.cpp(198): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>PageInputVideos.cpp(201): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>PageInputVideos.cpp(241): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(244): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(247): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(259): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(262): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(265): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(268): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>PageInputVideos.cpp(696): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>PageInputVideos.cpp(696): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>PageInputVideos.cpp(697): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>PageInputVideos.cpp(697): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>PageInputVideos.cpp(727): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>PageInputVideos.cpp(727): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\OvsControl.exe" /NOLOGO /LIBPATH:..\..\PluginSkype\Release /LIBPATH:C:\Projects\dlna\jdaws\win32\Release /LIBPATH:C:\Projects\dlna\jdaws\win32\openssl\lib /LIBPATH:..\..\PluginControl\Release /LIBPATH:"C:\Program Files (x86)\Intel\IntelAppUpSDK\Cpp\lib" PluginSkype.lib PluginControl.lib strmiids.lib libeay32.lib ssleay32.lib jdaws.lib Htmlhelp.lib Psapi.lib Shlwapi.lib /MANIFEST /ManifestFile:"Release\OvsControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Projects\OnyxVirtualStudio\Tools\OvsControl\Release\OvsControl.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"Release\OvsControl.lib" /MACHINE:X86 Release\OvsControl.res
+         Release\ConfigComn.obj
+         Release\ConfigLiveCast.obj
+         Release\CustomProperties.obj
+         Release\Dbg.obj
+         Release\DShowCapGraph.obj
+         Release\EditRtpRec.obj
+         Release\EditRtsp.obj
+         Release\EditSkype.obj
+         Release\EditUdpOut.obj
+         Release\HlsOutConfigure.obj
+         Release\OvsControl.obj
+         Release\OvsControlCrashReport.obj
+         Release\OvsControlPropSheet.obj
+         Release\PageInputVideos.obj
+         Release\PageLayout.obj
+         Release\PageLiveCast.obj
+         Release\PagePublish.obj
+         Release\PageRecord.obj
+         Release\PageSkype.obj
+         Release\PageStatus.obj
+         Release\RtmpEdit.obj
+         Release\RtspServerConfig.obj
+         Release\SelectCamera.obj
+         Release\SkypeConfig.obj
+         Release\SlideShowCtrl.obj
+         Release\stdafx.obj
+            Creating library Release\OvsControl.lib and object Release\OvsControl.exp
+         Generating code
+         Finished generating code
+         OvsControl.vcxproj -> C:\Projects\OnyxVirtualStudio\Tools\OvsControl\Release\OvsControl.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\OvsControl.exe;#1" /manifest Release\OvsControl.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\OvsControl.unsuccessfulbuild".
+         Touching "Release\OvsControl.lastbuildstate".
+     1>Done Building Project "C:\Projects\OnyxVirtualStudio\Tools\OvsControl\OvsControl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.47

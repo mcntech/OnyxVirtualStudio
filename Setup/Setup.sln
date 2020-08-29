@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OVSSetup", "Setup.vdproj", "{02C25BF6-78D8-4D6E-9345-EB66C8DB073E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C25BF6-78D8-4D6E-9345-EB66C8DB073E}.Debug|Default.ActiveCfg = Debug
+		{02C25BF6-78D8-4D6E-9345-EB66C8DB073E}.Debug|Default.Build.0 = Debug
+		{02C25BF6-78D8-4D6E-9345-EB66C8DB073E}.Release|Default.ActiveCfg = Release
+		{02C25BF6-78D8-4D6E-9345-EB66C8DB073E}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen79615",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "autoSync": true,
+        "model": "Archive",
+        "remoteFilter": true,
+        "storeId": "ArchivesStore",
+        "syncRemovedRecords": false,
+        "designer|userClassName": "ArchivesStore"
+    },
+    "customConfigs": [],
+    "designerId": "32aa8244-9128-42b9-939a-a9dbf8ad4d79",
+    "$viewOrder": 1,
+    "expanded": true
+}

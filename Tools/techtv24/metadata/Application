@@ -1,0 +1,56 @@
+{
+    "id": "ExtBox1-ext-gen3869",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Channel",
+            "Archive"
+        ],
+        "stores": [
+            "ChannelsStore",
+            "ArchivesStore"
+        ],
+        "views": [
+            "MainNav",
+            "ChannelsList",
+            "ChannelDetails",
+            "ArchivesList",
+            "ArchiveDetails"
+        ],
+        "name": "app",
+        "controllers": [
+            "ChannelsController"
+        ]
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen9956",
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "Ext.create('app.view.MainNav', {fullscreen: true});"
+                ],
+                "designer|userClassName": "launch"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-basic-function",
+            "expanded": true
+        }
+    ]
+}

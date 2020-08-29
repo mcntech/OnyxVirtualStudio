@@ -1,0 +1,63 @@
+﻿Build started 10/2/2013 4:29:05 AM.
+     1>Project "C:\Projects\OnyxVirtualStudio\PluginSkype\PluginSkype.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\PluginSkype.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\api" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\ipc" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\types" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\threading" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\transport" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\transport\tcp" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\platform\se" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\include" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\ctaocrypt\include" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\include\openssl" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\threading\win" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\VideoBuffers" /Iinclude /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include\OIS" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include\OGRE" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\Samples\Common\include" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\boost_1_48" /I..\PluginCommon /I..\PluginControl /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PLUGINSKYPE_EXPORTS /D DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\PluginSkype.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\api" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\ipc" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\types" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\threading" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\transport" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\transport\tcp" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\platform\se" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\include" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\ctaocrypt\include" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\ssl\cyassl\include\openssl" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\src\platform\threading\win" /I"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\ipc\cpp\VideoBuffers" /Iinclude /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include\OIS" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\include\OGRE" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\Samples\Common\include" /I"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\boost_1_48" /I..\PluginCommon /I..\PluginControl /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PLUGINSKYPE_EXPORTS /D DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PluginSkype.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Dbg.cpp SkypeUi.cpp
+         SkypeUi.cpp
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(252): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(814): warning C4101: 'skypeStatus' : unreferenced local variable
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(831): warning C4101: 'skypeStatus' : unreferenced local variable
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(1159): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(1160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(1180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\projects\onyxvirtualstudio\pluginskype\skypeui.cpp(1181): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         Dbg.cpp
+     1>c:\projects\onyxvirtualstudio\pluginskype\dbg.cpp(19): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\onyxvirtualstudio\pluginskype\dbg.cpp(20): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>c:\projects\onyxvirtualstudio\pluginskype\dbg.cpp(21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PluginSkype.dll.embed.manifest.res" Debug\PluginSkype_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\PluginSkype.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\build" /LIBPATH:"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\bin\windows-x86" /LIBPATH:"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\lib\debug" /LIBPATH:"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\boost_1_48\lib" /LIBPATH:..\PluginControl\Debug "skypekit-cppwrapper_2_lib.lib" "skypekit-cyassl_lib.lib" Ws2_32.lib OgreMain_d.lib OIS_d.lib PluginControl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PluginSkype.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\OnyxVirtualStudio\PluginSkype\Debug\PluginSkype.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\PluginSkype.lib" /MACHINE:X86 /DLL Debug\PluginSkype.dll.embed.manifest.res
+         Debug\Dbg.obj
+         Debug\SkypeUi.obj
+         Debug\stdafx.obj
+            Creating library Debug\PluginSkype.lib and object Debug\PluginSkype.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PluginSkype.dll.embed.manifest" /manifest Debug\PluginSkype.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PluginSkype.dll.embed.manifest.res" Debug\PluginSkype_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\PluginSkype.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\interfaces\skype\cpp_embedded\build" /LIBPATH:"C:\Projects\skypekit-sdk_sdk-4.2.1.97_1379776\bin\windows-x86" /LIBPATH:"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\lib\debug" /LIBPATH:"C:\Projects\Ogre\OgreSDK_vc10_v1-8-1\boost_1_48\lib" /LIBPATH:..\PluginControl\Debug "skypekit-cppwrapper_2_lib.lib" "skypekit-cyassl_lib.lib" Ws2_32.lib OgreMain_d.lib OIS_d.lib PluginControl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PluginSkype.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\OnyxVirtualStudio\PluginSkype\Debug\PluginSkype.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\PluginSkype.lib" /MACHINE:X86 /DLL Debug\PluginSkype.dll.embed.manifest.res
+         Debug\Dbg.obj
+         Debug\SkypeUi.obj
+         Debug\stdafx.obj
+            Creating library Debug\PluginSkype.lib and object Debug\PluginSkype.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         PluginSkype.vcxproj -> C:\Projects\OnyxVirtualStudio\PluginSkype\Debug\PluginSkype.dll
+       PostBuildEvent:
+         copy "Debug\PluginSkype.dll" ..\OnyxVirtualStudio\bin\Debug
+         
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\PluginSkype.unsuccessfulbuild".
+         Touching "Debug\PluginSkype.lastbuildstate".
+     1>Done Building Project "C:\Projects\OnyxVirtualStudio\PluginSkype\PluginSkype.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.99

@@ -1,0 +1,238 @@
+{
+    "id": "ExtBox1-ext-gen16844",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "channelDetails"
+        ],
+        "id": "ChannelDetails",
+        "tpl": "<div class=\"poster\"><img src=\"data:image/jpeg;base64,{poster}\"></div>\n\n<p class=\"synopsis\">{synopsis}</p>\n<p class=\"program\">{program}</p>\n",
+        "scrollable": "vertical",
+        "designer|userClassName": "ChannelDetails",
+        "designer|userAlias": "channeldetails"
+    },
+    "customConfigs": [],
+    "designerId": "2276038c-000c-4e39-92e3-8c262cfa54c4",
+    "$viewOrder": 2,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen7102",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "itemId": "streamviewbar",
+                "title": null,
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7395",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": null,
+                        "id": "viewhd",
+                        "itemId": "mybutton6",
+                        "ui": null,
+                        "text": "HQ Channel",
+                        "designer|userClassName": "MyButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen75777",
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var data = button.getData();\r",
+                                    "window.location = data.urlhq;\r",
+                                    ""
+                                ],
+                                "designer|userClassName": "handler"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-basic-function",
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen7582",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "viewsd",
+                        "itemId": null,
+                        "text": "SD Channel",
+                        "designer|userClassName": "MyButton1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen77308",
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var data = button.getData();\r",
+                                    "window.location = data.urllq;\r",
+                                    ""
+                                ],
+                                "designer|userClassName": "handler"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-basic-function",
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen7753",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "id": "archive",
+                        "itemId": null,
+                        "text": "Archives",
+                        "designer|userClassName": "MyButton2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen77948",
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "handler",
+                                "designer|params": [
+                                    "button",
+                                    "event"
+                                ],
+                                "implHandler": [
+                                    "var data = button.getData();\r",
+                                    "var myList = Ext.create('app.view.ArchivesList', {title: data.title});\r",
+                                    "var myStore = myList.getStore();\r",
+                                    "var myProxy = myStore.getProxy();\r",
+                                    "myProxy.setExtraParams({\"channel_id\": data.id}); \r",
+                                    "myStore.load();\r",
+                                    "button.up('navigationview').push(myList);\r",
+                                    "\r",
+                                    ""
+                                ],
+                                "designer|userClassName": "handler"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-basic-function",
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen65247",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "SetChildrenData",
+                "designer|params": [
+                    "component, data"
+                ],
+                "implHandler": [
+                    "var me = this;\r",
+                    "component.getItems().each(function(item) {\r",
+                    "    if(typeof item.setData == 'function'){\r",
+                    "        item.setData(data);\r",
+                    "    }\r",
+                    "\r",
+                    "    //set record on all subitems\r",
+                    "    if(typeof item.getItems == 'function'){\r",
+                    "        var subItems = item.getItems();\r",
+                    "        if(subItems.getCount() > 0){\r",
+                    "            me.SetChildrenData(item, data);\r",
+                    "        }\r",
+                    "    }\r",
+                    "});"
+                ],
+                "designer|userClassName": "SetChildrenData"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen106758",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onChannelDetailsUpdatedata",
+                "implHandler": [
+                    "this.SetChildrenData(component, newData);"
+                ],
+                "name": "updatedata",
+                "designer|userClassName": "onChannelDetailsUpdatedata"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

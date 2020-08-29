@@ -1,0 +1,349 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\OvsConfig.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\OvsConfig.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About OvsConfig"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "OvsConfig, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_OVSCONFIG_DIALOG DIALOGEX 0, 0, 478, 284
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Ovs Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Input Streams",IDC_STATIC,8,29,56,10
+    LTEXT           "Stream1",IDC_STATIC,8,43,28,8
+    EDITTEXT        IDC_EDIT_STREAM1,44,42,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM1,224,43,27,14
+    CONTROL         "",IDC_CHECK_STREAM1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,45,16,10
+    LTEXT           "Stream 2",IDC_STATIC,8,61,30,8
+    EDITTEXT        IDC_EDIT_STREAM2,44,60,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM2,224,61,27,14
+    CONTROL         "",IDC_CHECK_STREAM2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,63,16,10
+    LTEXT           "Stream 3",IDC_STATIC,8,79,30,8
+    EDITTEXT        IDC_EDIT_STREAM3,44,78,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM3,224,79,27,14
+    CONTROL         "",IDC_CHECK_STREAM3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,81,16,10
+    LTEXT           "Stream 4",IDC_STATIC,8,97,30,8
+    EDITTEXT        IDC_EDIT_STREAM4,44,96,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM4,224,97,27,14
+    CONTROL         "",IDC_CHECK_STREAM4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,99,16,10
+    LTEXT           "Stream 5",IDC_STATIC,8,115,30,8
+    EDITTEXT        IDC_EDIT_STREAM5,44,114,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM5,224,115,27,14
+    CONTROL         "",IDC_CHECK_STREAM5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,117,16,10
+    LTEXT           "Stream 6",IDC_STATIC,8,133,30,8
+    EDITTEXT        IDC_EDIT_STREAM6,44,132,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_STREAM6,224,133,27,14
+    CONTROL         "",IDC_CHECK_STREAM6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,135,16,10
+    LTEXT           "Anchors",IDC_STATIC,8,160,54,8
+    LTEXT           "Anchor 1",IDC_STATIC,8,173,30,8
+    EDITTEXT        IDC_EDIT_ANCHOR1,44,172,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_ANCHOR1,224,172,27,14
+    CONTROL         "",IDC_CHECK_ANCHOR1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,260,174,16,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,25,295,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,155,295,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,192,456,1
+    DEFPUSHBUTTON   "OK",IDOK,359,265,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,421,265,50,14
+    LTEXT           "Configuration File ",IDC_STATIC,7,7,59,8
+    EDITTEXT        IDC_EDIT_CONFIGFILE,67,7,234,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Advertisements",IDC_STATIC,8,196,54,8
+    LTEXT           "Advt 1",IDC_STATIC,8,212,22,8
+    EDITTEXT        IDC_EDIT_ADVT1,44,211,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_ADVT1,224,213,27,14
+    CONTROL         "",IDC_CHECK_ADVT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,260,216,16,10
+    LTEXT           "Advt 2",IDC_STATIC,8,231,22,8
+    EDITTEXT        IDC_EDIT_ADVT2,44,230,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_ADVT2,224,231,27,14
+    CONTROL         "",IDC_CHECK_ADVT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,260,234,16,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,257,464,1
+    CONTROL         "ColorKey",IDC_CHECK_ANCHOR1_COLORKEY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,226,158,43,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,45,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,63,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,81,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,99,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,117,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_STREAM6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,135,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_ANCHOR1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,174,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_ADVT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,216,16,10
+    CONTROL         "",IDC_CHECK_FLIPV_ADVT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,288,234,16,10
+    LTEXT           "Flip V",IDC_STATIC,283,31,18,8
+    LTEXT           "Enable",IDC_STATIC,254,31,22,8
+    LTEXT           "3D Entity Name",IDC_STATIC,331,31,50,9
+    LTEXT           "Video Stream",IDC_STATIC,79,31,43,8
+    LTEXT           "3D Materail",IDC_STATIC,403,31,50,9
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_1,325,42,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM1,397,42,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_6,325,132,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM6,397,132,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_2,325,60,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM2,397,60,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_3,325,78,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM3,397,78,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_4,325,96,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM4,397,96,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_STRAEM_5,325,114,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_STREAM5,397,114,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_ANCHOR1,325,173,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_ANCHOR1,397,173,61,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,312,25,149,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,312,155,149,1
+    LTEXT           "Advanced",IDC_STATIC,353,15,33,8
+    EDITTEXT        IDC_EDIT_3D_ENTITY_ADV1,325,212,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_ADV1,397,212,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_ENTITY_ADV2,325,231,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_3D_MATERIAL_ADV2,397,231,61,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_STREAMINF DIALOGEX 0, 0, 312, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Stream Information"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Type",IDC_STATIC,17,16,280,33
+    CONTROL         "Local File",IDC_RADIO_STREAM_FILE,"Button",BS_AUTORADIOBUTTON,50,29,45,10
+    CONTROL         "Camera",IDC_RADIO_STREAM_CAMERA,"Button",BS_AUTORADIOBUTTON,104,29,41,10
+    CONTROL         "Rtsp",IDC_RADIO_STREAM_RTSP,"Button",BS_AUTORADIOBUTTON,154,29,31,10
+    CONTROL         "Skype",IDC_RADIO_STREAM_SKYPE,"Button",BS_AUTORADIOBUTTON,194,29,35,10
+    CONTROL         "SIP",IDC_RADIO_STREAM_SIP,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,238,29,27,10
+    LTEXT           "Path",IDC_STATIC_PATH,17,60,30,8
+    EDITTEXT        IDC_EDIT_STREAM_PATH,49,60,199,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BROWS_PATH,255,60,50,14
+    DEFPUSHBUTTON   "OK",IDOK,205,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,255,129,50,14
+    COMBOBOX        IDC_COMBO_CAMERA,49,60,199,69,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_EXAMPLE,48,102,199,17,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_PASSWD,49,79,74,14,ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC_PASSWD,17,79,32,8
+END
+
+IDD_DIALOG_OUTPUTINF DIALOGEX 0, 0, 326, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Output Information"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Specify Input format and destination",IDC_STATIC,7,43,133,8
+    CONTROL         "HLS (Network)",IDC_RADIO_OUTPUT_HLS_NET,"Button",BS_AUTORADIOBUTTON,11,59,62,10
+    EDITTEXT        IDC_EDIT_OUTPUT_HLS_NET,81,58,194,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "HLS (throw S3)",IDC_RADIO_OUTPUT_HLS_S3,"Button",BS_AUTORADIOBUTTON,11,75,64,10
+    EDITTEXT        IDC_EDIT_OUTPUT_HLS_S3,81,74,194,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Configure",IDC_BUTTON_CONFIGURE_S3,278,75,41,14
+    CONTROL         "RTSP network)",IDC_RADIO_OUTPUT_RTSP,"Button",BS_AUTORADIOBUTTON,11,91,63,10
+    EDITTEXT        IDC_EDIT_OUTPUT_RTSP,81,90,194,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "MP4 (Hard Disk)",IDC_RADIO_OUTPUT_MP4,"Button",BS_AUTORADIOBUTTON,11,107,67,10
+    EDITTEXT        IDC_EDIT_OUTPUT_MP4,81,106,194,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BROWS_OUTPUT_MP4,278,105,41,14
+    CONTROL         "HLS (Hard Disk)",IDC_RADIO_OUTPUT_HLS_FILE,"Button",BS_AUTORADIOBUTTON,11,123,65,10
+    EDITTEXT        IDC_EDIT_OUTPUT_HLS_HD,81,122,194,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BROWS_OUTPUT_HLS,278,122,41,14
+    EDITTEXT        IDC_EDIT_OUTPUT_HELP,7,146,312,34,ES_AUTOHSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "OK",IDOK,205,196,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,269,196,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,35,312,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,185,312,1
+    COMBOBOX        IDC_COMBO_AUDIO_INPUT,81,15,194,58,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Audio Input",IDC_STATIC,7,16,38,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "OvsConfig.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "OvsConfig.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_OVSCONFIG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 471
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+
+    IDD_DIALOG_STREAMINF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_OUTPUTINF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About OvsConfig..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\OvsConfig.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

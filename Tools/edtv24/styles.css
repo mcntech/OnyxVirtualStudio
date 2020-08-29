@@ -1,0 +1,37 @@
+/* Custom styles for Current Channels app */
+.channelListItem {
+    overflow: hidden;
+}
+
+.channelListItem > img {
+    float: left;
+    margin-right: 0.8em;
+}
+
+.channelListItem > .ratings {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 1em;
+}
+
+.channelDetails .x-innerhtml {
+    padding: 1em;
+}
+
+.channelDetails .synopsis {
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: inset 0 0 .5em rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.channelDetails .poster {
+    text-align: center;
+}
+
+.channelDetails .url {
+    text-align: center;
+}
+.channelDetails .urllq {
+    text-align: center;
+}

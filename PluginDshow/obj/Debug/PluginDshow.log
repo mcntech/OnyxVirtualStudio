@@ -1,0 +1,28 @@
+﻿Build started 1/25/2014 4:09:36 PM.
+     1>Project "C:\Projects\OnyxVirtualStudio\PluginDshow\PluginDshow.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Debug\PluginDshow.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       BscMake:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         copy "bin\Debug\PluginDshow.dll" ..\OnyxVirtualStudio\bin\Debug
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\PluginDshow.unsuccessfulbuild".
+         Touching "obj\Debug\PluginDshow.lastbuildstate".
+     1>Done Building Project "C:\Projects\OnyxVirtualStudio\PluginDshow\PluginDshow.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

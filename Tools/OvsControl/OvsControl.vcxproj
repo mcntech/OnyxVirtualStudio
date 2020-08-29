@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C3F2CA1-D870-4863-B94D-4E048174EC8B}</ProjectGuid>
+    <RootNamespace>OvsControl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\PluginSkype;..\..\PluginCommon;C:\Projects\dlna\jdaws\include;C:\Projects\dlna\jdnet\include;..\..\PluginControl;C:\Projects\dlna\DsFilters\McnVCam;C:\Projects\dlna\DsFilters\McnRtmpPublish;C:\Projects\mcncodec\IMSdk_R3\samples\sample_dshow_plugins\utils\include;C:\Program Files %28x86%29\Intel\IntelAppUpSDK\Cpp\include;C:\Projects\dlna\DsFilters\McnHlsSrvFilter;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRTDBG_MAP_ALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>PluginSkype.lib;PluginControl.lib;strmiids.lib;libeay32.lib;ssleay32.lib;jdaws.lib;Htmlhelp.lib;Psapi.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\PluginSkype\$(Configuration);C:\Projects\dlna\jdaws\win32\$(Configuration);C:\Projects\dlna\jdaws\win32\openssl\lib;..\..\PluginControl\$(Configuration);C:\Program Files %28x86%29\Intel\IntelAppUpSDK\Cpp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\PluginSkype;..\..\PluginCommon;C:\Projects\dlna\jdaws\include;C:\Projects\dlna\jdnet\include;..\..\PluginControl;C:\Projects\mcncodec\IMSdk_R3\samples\sample_dshow_plugins\utils\include;C:\Projects\dlna\DsFilters\McnVCam;C:\Projects\dlna\DsFilters\McnRtmpPublish;C:\Program Files %28x86%29\Intel\IntelAppUpSDK\Cpp\include;C:\Projects\dlna\DsFilters\McnHlsSrvFilter;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;FORCE_LOG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>PluginSkype.lib;PluginControl.lib;strmiids.lib;libeay32.lib;ssleay32.lib;jdaws.lib;Htmlhelp.lib;Psapi.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\PluginSkype\$(Configuration);C:\Projects\dlna\jdaws\win32\$(Configuration);C:\Projects\dlna\jdaws\win32\openssl\lib;..\..\PluginControl\$(Configuration);C:\Program Files %28x86%29\Intel\IntelAppUpSDK\Cpp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigComn.cpp" />
+    <ClCompile Include="ConfigLiveCast.cpp" />
+    <ClCompile Include="CustomProperties.cpp" />
+    <ClCompile Include="Dbg.cpp" />
+    <ClCompile Include="DShowCapGraph.cpp" />
+    <ClCompile Include="EditRtpRec.cpp" />
+    <ClCompile Include="EditRtsp.cpp" />
+    <ClCompile Include="EditSkype.cpp" />
+    <ClCompile Include="EditUdpOut.cpp" />
+    <ClCompile Include="HlsOutConfigure.cpp" />
+    <ClCompile Include="HlsPublishS3.cpp" />
+    <ClCompile Include="OvsControl.cpp" />
+    <ClCompile Include="OvsControlCrashReport.cpp" />
+    <ClCompile Include="OvsControlPropSheet.cpp" />
+    <ClCompile Include="PageInputVideos.cpp" />
+    <ClCompile Include="PageLayout.cpp" />
+    <ClCompile Include="PageLiveCast.cpp" />
+    <ClCompile Include="PagePublish.cpp" />
+    <ClCompile Include="PageRecord.cpp" />
+    <ClCompile Include="PageSkype.cpp" />
+    <ClCompile Include="PageStatus.cpp" />
+    <ClCompile Include="RtmpEdit.cpp" />
+    <ClCompile Include="RtspServerConfig.cpp" />
+    <ClCompile Include="SelectCamera.cpp" />
+    <ClCompile Include="SkypeConfig.cpp" />
+    <ClCompile Include="SlideShowCtrl.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PluginCommon\DsUtil.h" />
+    <ClInclude Include="ConfigComn.h" />
+    <ClInclude Include="ConfigLiveCast.h" />
+    <ClInclude Include="CustomProperties.h" />
+    <ClInclude Include="Dbg.h" />
+    <ClInclude Include="DshowCapGraph.h" />
+    <ClInclude Include="EditRtpRec.h" />
+    <ClInclude Include="EditRtsp.h" />
+    <ClInclude Include="EditSkype.h" />
+    <ClInclude Include="..\..\PluginControl\OnyxControl.h" />
+    <ClInclude Include="EditUdpOut.h" />
+    <ClInclude Include="HlsOutConfigure.h" />
+    <ClInclude Include="HlsPublishS3.h" />
+    <ClInclude Include="OvsControl.h" />
+    <ClInclude Include="OvsControlCrashReport.h" />
+    <ClInclude Include="OvsControlPropSheet.h" />
+    <ClInclude Include="PageInputVideos.h" />
+    <ClInclude Include="PageLayout.h" />
+    <ClInclude Include="PageLiveCast.h" />
+    <ClInclude Include="PagePublish.h" />
+    <ClInclude Include="PageRecord.h" />
+    <ClInclude Include="PageSkype.h" />
+    <ClInclude Include="PageStatus.h" />
+    <ClInclude Include="..\..\PluginCommon\PluginParams.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RtmpEdit.h" />
+    <ClInclude Include="RtspServerConfig.h" />
+    <ClInclude Include="SelectCamera.h" />
+    <ClInclude Include="SkypeConfig.h" />
+    <ClInclude Include="SlideShowCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Anchor1 .bmp" />
+    <None Include="res\Anchor1.bmp" />
+    <None Include="res\Anchor2.bmp" />
+    <None Include="res\arrow_dn.bmp" />
+    <None Include="res\arrow_left.bmp" />
+    <None Include="res\arrow_right.bmp" />
+    <None Include="res\arrow_up.bmp" />
+    <None Include="res\AUDCFGD.bmp" />
+    <None Include="res\AUDCFGU.bmp" />
+    <None Include="res\AUDIOCFGX.bmp" />
+    <None Include="res\Btn.cur" />
+    <None Include="res\btn1_hot.bmp" />
+    <None Include="res\button32.bmp" />
+    <None Include="res\button32hot.bmp" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\CAMERAD.BMP" />
+    <None Include="res\CAMERAF.BMP" />
+    <None Include="res\CAMERASRC.BMP" />
+    <None Include="res\CAMERASRC_SML.bmp" />
+    <None Include="res\CAMERAU.BMP" />
+    <None Include="res\CAMERAX.BMP" />
+    <None Include="res\check32.bmp" />
+    <None Include="res\checkno.bmp" />
+    <None Include="res\checkno32.bmp" />
+    <None Include="res\COLORKEYD.bmp" />
+    <None Include="res\COLORKEYDISD.bmp" />
+    <None Include="res\COLORKEYDISF.bmp" />
+    <None Include="res\COLORKEYDISU.bmp" />
+    <None Include="res\COLORKEYDISX.bmp" />
+    <None Include="res\COLORKEYEND.bmp" />
+    <None Include="res\COLORKEYENF.bmp" />
+    <None Include="res\COLORKEYENU.bmp" />
+    <None Include="res\COLORKEYENX.bmp" />
+    <None Include="res\COLORKEYF.bmp" />
+    <None Include="res\COLORKEYU.bmp" />
+    <None Include="res\COLORKEYX.bmp" />
+    <None Include="res\Display1.bmp" />
+    <None Include="res\Display2.bmp" />
+    <None Include="res\Display3.bmp" />
+    <None Include="res\FILED.bmp" />
+    <None Include="res\FILEF.bmp" />
+    <None Include="res\FILESRC.bmp" />
+    <None Include="res\FILESRC_SML.bmp" />
+    <None Include="res\FILEU.bmp" />
+    <None Include="res\FILEX.bmp" />
+    <None Include="res\FLIPVD.bmp" />
+    <None Include="res\FLIPVDISD.bmp" />
+    <None Include="res\FLIPVDISF.bmp" />
+    <None Include="res\FLIPVDISU.bmp" />
+    <None Include="res\FLIPVDISX.bmp" />
+    <None Include="res\FLIPVEND.bmp" />
+    <None Include="res\FLIPVENF.bmp" />
+    <None Include="res\FLIPVENU.bmp" />
+    <None Include="res\FLIPVENX.bmp" />
+    <None Include="res\FLIPVF.bmp" />
+    <None Include="res\FLIPVU.bmp" />
+    <None Include="res\FLIPVX.bmp" />
+    <None Include="res\GEN_DISABLE.bmp" />
+    <None Include="res\GEN_DISABLED.bmp" />
+    <None Include="res\GEN_DISABLEU.bmp" />
+    <None Include="res\GEN_ENABLE.bmp" />
+    <None Include="res\GEN_ENABLED.bmp" />
+    <None Include="res\GEN_ENABLEU.bmp" />
+    <None Include="res\globe.bmp" />
+    <None Include="res\HLSD.bmp" />
+    <None Include="res\HLSU.bmp" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icons.bmp" />
+    <None Include="res\icons32.bmp" />
+    <None Include="res\icons_skype.bmp" />
+    <None Include="res\icon_layout.bmp" />
+    <None Include="res\icon_livecast.bmp" />
+    <None Include="res\icon_mixer.bmp" />
+    <None Include="res\icon_record.bmp" />
+    <None Include="res\INPUTDISD.bmp" />
+    <None Include="res\INPUTDISF.bmp" />
+    <None Include="res\INPUTDISU.bmp" />
+    <None Include="res\INPUTDISX.bmp" />
+    <None Include="res\INPUTEND.bmp" />
+    <None Include="res\INPUTENF.bmp" />
+    <None Include="res\INPUTENU.bmp" />
+    <None Include="res\INPUTENX.bmp" />
+    <None Include="res\INPUTSTATED.bmp" />
+    <None Include="res\INPUTSTATEF.bmp" />
+    <None Include="res\INPUTSTATEU.bmp" />
+    <None Include="res\INPUTSTATEX.bmp" />
+    <None Include="res\IPCAMD.bmp" />
+    <None Include="res\IPCAMF.bmp" />
+    <None Include="res\IPCAMSRC.bmp" />
+    <None Include="res\IPCAMSRC_SML.bmp" />
+    <None Include="res\IPCAMU.bmp" />
+    <None Include="res\IPCAMX.bmp" />
+    <None Include="res\ITEMEDITD.bmp" />
+    <None Include="res\ITEMEDITU.bmp" />
+    <None Include="res\ITEMEDITX.bmp" />
+    <None Include="res\led_off.bmp" />
+    <None Include="res\led_on.bmp" />
+    <None Include="res\LOGIND.bmp" />
+    <None Include="res\LOGINU.bmp" />
+    <None Include="res\LOGINX.bmp" />
+    <None Include="res\LOGOUTD.bmp" />
+    <None Include="res\LOGOUTU.bmp" />
+    <None Include="res\LOGOUTX.bmp" />
+    <None Include="res\MP4D.bmp" />
+    <None Include="res\MP4U.bmp" />
+    <None Include="res\NewControls.ico" />
+    <None Include="res\NOSRC.bmp" />
+    <None Include="res\NOSRC_SML.bmp" />
+    <None Include="res\Overlay1.bmp" />
+    <None Include="res\OvsControl.ico" />
+    <None Include="res\PAUSED.bmp" />
+    <None Include="res\PAUSEU.bmp" />
+    <None Include="res\PAUSEX.bmp" />
+    <None Include="res\PHONACCEPTD.bmp" />
+    <None Include="res\PHONEACCEPTU.bmp" />
+    <None Include="res\PHONEREJECTD.bmp" />
+    <None Include="res\PHONEREJECTU.bmp" />
+    <None Include="res\play.bmp" />
+    <None Include="res\play_hot.bmp" />
+    <None Include="res\PromptPlane.bmp" />
+    <None Include="res\propicons.bmp" />
+    <None Include="res\radio_of.bmp" />
+    <None Include="res\radio_of32.bmp" />
+    <None Include="res\radio_on.bmp" />
+    <None Include="res\radio_on32.bmp" />
+    <None Include="res\RECORDD.bmp" />
+    <None Include="res\RECORDF.bmp" />
+    <None Include="res\RECORDU.bmp" />
+    <None Include="res\RECORDX.bmp" />
+    <None Include="res\RESETD.bmp" />
+    <None Include="res\RESETU.bmp" />
+    <None Include="res\RESETX.bmp" />
+    <None Include="res\RESUMED.bmp" />
+    <None Include="res\RESUMEU.bmp" />
+    <None Include="res\RESUMEX.bmp" />
+    <None Include="res\RETURNLISTD.bmp" />
+    <None Include="res\RETURNLISTU.bmp" />
+    <None Include="res\RETURNLISTX.bmp" />
+    <None Include="res\skype_img_16x16.bmp" />
+    <None Include="res\skype_img_32x32.bmp" />
+    <None Include="res\SKYPED.bmp" />
+    <None Include="res\SKYPEF.bmp" />
+    <None Include="res\SKYPESRC.bmp" />
+    <None Include="res\SKYPESRC_SML.bmp" />
+    <None Include="res\SKYPEU.bmp" />
+    <None Include="res\SKYPEX.bmp" />
+    <None Include="res\stop.bmp" />
+    <None Include="res\stop_hot.bmp" />
+    <None Include="res\STOPD.bmp" />
+    <None Include="res\STOPU.bmp" />
+    <None Include="res\STOPX.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\welcome.bmp" />
+    <None Include="ReadMe.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OvsControl.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="OvsControl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

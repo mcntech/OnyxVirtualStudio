@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen7533",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "channelDetails"
+        ],
+        "tpl": "<div class=\"poster\"><img src=\"data:image/jpeg;base64,{poster}\"></div>\n\n<p class=\"synopsis\">{synopsis}</p>\n\n<div class=\"url\">\n<a href=\"{url}\" align=middle>View High Bitrate Channnel</a>\n\n</div>\n<div class=\"urllq\">\n<a href=\"{urllq}\" align=middle>View Low Bitrate Channnel</a>\n</div>",
+        "scrollable": "vertical",
+        "designer|userClassName": "ChannelsDetails",
+        "designer|userAlias": "channelsdetails"
+    },
+    "customConfigs": [],
+    "designerId": "c4c94386-e965-4fa5-9dfe-da2ecbb3e5f1",
+    "$viewOrder": 2,
+    "expanded": true
+}

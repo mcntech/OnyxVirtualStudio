@@ -1,0 +1,20 @@
+{
+    "id": "ExtBox1-ext-gen13117",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Channel",
+        "storeId": "ChannelsStore",
+        "syncRemovedRecords": true,
+        "designer|userClassName": "ChannelsStore"
+    },
+    "customConfigs": [],
+    "designerId": "b8d58ef9-3fee-45c1-8939-db4f60194430",
+    "$viewOrder": 0,
+    "expanded": true
+}

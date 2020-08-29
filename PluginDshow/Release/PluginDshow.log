@@ -1,0 +1,23 @@
+﻿Build started 1/27/2014 7:04:36 AM.
+     1>Project "C:\Projects\OnyxVirtualStudio\PluginDshow\PluginDshow.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PluginDshow.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         PluginDshow.vcxproj -> C:\Projects\OnyxVirtualStudio\PluginDshow\Release\PluginDshow.dll
+       PostBuildEvent:
+         copy "Release\PluginDshow.dll" ..\OnyxVirtualStudio\bin\Release
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\PluginDshow.unsuccessfulbuild".
+         Touching "Release\PluginDshow.lastbuildstate".
+     1>Done Building Project "C:\Projects\OnyxVirtualStudio\PluginDshow\PluginDshow.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

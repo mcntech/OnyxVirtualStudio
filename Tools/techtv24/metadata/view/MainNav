@@ -1,0 +1,50 @@
+{
+    "id": "ExtBox1-ext-gen3931",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainNav"
+    },
+    "customConfigs": [],
+    "designerId": "f420125f-a08a-4d50-942c-0a4e6056c456",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5497",
+            "type": "navigationbar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNavigationBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-navbar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen7169",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "channelsList",
+                "title": "TechTV24"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen4318"
+        }
+    ]
+}
